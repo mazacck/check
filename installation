@@ -1,0 +1,109 @@
+Script started on 2020-11-10 20:10:04+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="120" LINES="30"]
+(base) ]0;mazack@TIGER0722: /d/Learning/MLE/check[01;32mmazack@TIGER0722[00m:[01;34m/d/Learning/MLE/check[00m$ conda activate [K[K[K[K[K[K[K[K[K[K env list
+# conda environments:
+#
+base                  *  /home/mazack/miniconda3
+deven                    /home/mazack/miniconda3/envs/deven
+devenv                   /home/mazack/miniconda3/envs/devenv
+snakes                   /home/mazack/miniconda3/envs/snakes
+snowflakes               /home/mazack/miniconda3/envs/snowflakes
+
+(base) ]0;mazack@TIGER0722: /d/Learning/MLE/check[01;32mmazack@TIGER0722[00m:[01;34m/d/Learning/MLE/check[00m$ conda activate deven
+(deven) ]0;mazack@TIGER0722: /d/Learning/MLE/check[01;32mmazack@TIGER0722[00m:[01;34m/d/Learning/MLE/check[00m$ conda info --envs
+# conda environments:
+#
+base                     /home/mazack/miniconda3
+deven                 *  /home/mazack/miniconda3/envs/deven
+devenv                   /home/mazack/miniconda3/envs/devenv
+snakes                   /home/mazack/miniconda3/envs/snakes
+snowflakes               /home/mazack/miniconda3/envs/snowflakes
+
+(deven) ]0;mazack@TIGER0722: /d/Learning/MLE/check[01;32mmazack@TIGER0722[00m:[01;34m/d/Learning/MLE/check[00m$ conda list
+# packages in environment at /home/mazack/miniconda3/envs/deven:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main  
+autopep8                  1.5.4                    pypi_0    pypi
+biopython                 1.78             py38h7b6447c_0  
+blas                      1.0                         mkl  
+ca-certificates           2020.10.14                    0  
+certifi                   2020.6.20          pyhd3eb1b0_3  
+cycler                    0.10.0                   pypi_0    pypi
+intel-openmp              2020.2                      254  
+isort                     5.6.4                    pypi_0    pypi
+joblib                    0.17.0                   pypi_0    pypi
+kiwisolver                1.3.1                    pypi_0    pypi
+ld_impl_linux-64          2.33.1               h53a641e_7  
+libedit                   3.1.20191231         h14c3975_1  
+libffi                    3.3                  he6710b0_2  
+libgcc-ng                 9.1.0                hdf63c60_0  
+libstdcxx-ng              9.1.0                hdf63c60_0  
+matplotlib                3.3.2                    pypi_0    pypi
+mkl                       2020.2                      256  
+mkl-service               2.3.0            py38he904b0f_0  
+mkl_fft                   1.2.0            py38h23d657b_0  
+mkl_random                1.1.1            py38h0573a6f_0  
+ncurses                   6.2                  he6710b0_1  
+numpy                     1.19.2           py38h54aff64_0  
+numpy-base                1.19.2           py38hfa32c7d_0  
+openssl                   1.1.1h               h7b6447c_0  
+pandas                    1.1.4                    pypi_0    pypi
+pillow                    8.0.1                    pypi_0    pypi
+pip                       20.2.4           py38h06a4308_0  
+pyparsing                 2.4.7                    pypi_0    pypi
+python                    3.8.5                h7579374_1  
+python-dateutil           2.8.1                    pypi_0    pypi
+pytz                      2020.4                   pypi_0    pypi
+readline                  8.0                  h7b6447c_0  
+scipy                     1.5.4                    pypi_0    pypi
+setuptools                50.3.0           py38h06a4308_1  
+six                       1.15.0                     py_0  
+sqlite                    3.33.0               h62c20be_0  
+tk                        8.6.10               hbc83047_0  
+wheel                     0.35.1                     py_0  
+xz                        5.2.5                h7b6447c_0  
+zlib                      1.2.11               h7b6447c_3  
+(deven) ]0;mazack@TIGER0722: /d/Learning/MLE/check[01;32mmazack@TIGER0722[00m:[01;34m/d/Learning/MLE/check[00m$ python [K2[K3 code.py [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit status
+On branch one
+Your branch is up to date with 'origin/one'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mdatasets/[m
+	[31mdeven.yaml[m
+	[31minstallation[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+(deven) ]0;mazack@TIGER0722: /d/Learning/MLE/check[01;32mmazack@TIGER0722[00m:[01;34m/d/Learning/MLE/check[00m$ python3 code.py 
+49155.170365634505 {'max_features': 7, 'n_estimators': 180}
+50987.04312458704 {'max_features': 5, 'n_estimators': 15}
+50615.062741858346 {'max_features': 3, 'n_estimators': 72}
+50384.45258861629 {'max_features': 5, 'n_estimators': 21}
+49311.12724384495 {'max_features': 7, 'n_estimators': 122}
+50620.02725664336 {'max_features': 3, 'n_estimators': 75}
+50544.81214288387 {'max_features': 3, 'n_estimators': 88}
+49425.39483845691 {'max_features': 5, 'n_estimators': 100}
+50424.43333681439 {'max_features': 3, 'n_estimators': 150}
+64513.81455303026 {'max_features': 5, 'n_estimators': 2}
+64756.15287120735 {'max_features': 2, 'n_estimators': 3}
+56063.4893319337 {'max_features': 2, 'n_estimators': 10}
+53273.90806143431 {'max_features': 2, 'n_estimators': 30}
+59101.28067228025 {'max_features': 4, 'n_estimators': 3}
+52474.6964949602 {'max_features': 4, 'n_estimators': 10}
+50255.25226845538 {'max_features': 4, 'n_estimators': 30}
+58478.93093971638 {'max_features': 6, 'n_estimators': 3}
+51882.75302588659 {'max_features': 6, 'n_estimators': 10}
+49868.92531447902 {'max_features': 6, 'n_estimators': 30}
+57806.27616477774 {'max_features': 8, 'n_estimators': 3}
+51835.9458092803 {'max_features': 8, 'n_estimators': 10}
+50203.329994664484 {'max_features': 8, 'n_estimators': 30}
+64112.198842075566 {'bootstrap': False, 'max_features': 2, 'n_estimators': 3}
+54651.51712479169 {'bootstrap': False, 'max_features': 2, 'n_estimators': 10}
+61288.864185527455 {'bootstrap': False, 'max_features': 3, 'n_estimators': 3}
+53224.19707673298 {'bootstrap': False, 'max_features': 3, 'n_estimators': 10}
+57838.22236630826 {'bootstrap': False, 'max_features': 4, 'n_estimators': 3}
+51377.79059097661 {'bootstrap': False, 'max_features': 4, 'n_estimators': 10}
+(deven) ]0;mazack@TIGER0722: /d/Learning/MLE/check[01;32mmazack@TIGER0722[00m:[01;34m/d/Learning/MLE/check[00m$ ei[Kxit
+exit
+
+Script done on 2020-11-10 20:23:42+05:30 [COMMAND_EXIT_CODE="0"]
